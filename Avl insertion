@@ -1,0 +1,80 @@
+Inserting: 44
+Rotation: No rotation
+Tree Structure:
+Root: 44
+
+Inserting: 17
+Rotation: No rotation
+Tree Structure:
+Root: 44
+    L--- 17
+
+Inserting: 32
+Rotation: LR Rotation
+Tree Structure:
+Root: 32
+    L--- 17
+    R--- 44
+
+Inserting: 78
+Rotation: No rotation
+Tree Structure:
+Root: 32
+    L--- 17
+    R--- 44
+        R--- 78
+
+Inserting: 50
+Rotation: No rotation
+Tree Structure:
+Root: 32
+    L--- 17
+    R--- 50
+        L--- 44
+        R--- 78
+
+Inserting: 88
+Rotation: RR Rotation
+Tree Structure:
+Root: 50
+    L--- 32
+        L--- 17
+        R--- 44
+    R--- 78
+        R--- 88
+
+Inserting: 48
+Rotation: No rotation
+Tree Structure:
+Root: 50
+    L--- 32
+        L--- 17
+        R--- 44
+            R--- 48
+    R--- 78
+        R--- 88
+
+Inserting: 62
+Rotation: No rotation
+Tree Structure:
+Root: 50
+    L--- 32
+        L--- 17
+        R--- 44
+            R--- 48
+    R--- 78
+        L--- 62
+        R--- 88
+
+Inserting: 54
+Rotation: No rotation
+Tree Structure:
+Root: 50
+    L--- 32
+        L--- 17
+        R--- 44
+            R--- 48
+    R--- 78
+        L--- 62
+            L--- 54
+        R--- 88
