@@ -1,0 +1,17 @@
+MASTER THEOREM ANALYSIS
+---------------------------------
+Given Recurrence: T(n)=3T(n/2)+n
+
+Extracted Parameters:
+a = 3
+b = 2
+f(n) = n
+
+Computed:
+log_b(a) = 1.585
+
+Applicable Case: Case 1
+
+Final Time Complexity:
+Theta(n^1.58)
+---------------------------------
